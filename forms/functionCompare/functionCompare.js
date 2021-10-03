@@ -13,3 +13,4 @@ function Compare(pass1, pass2) {
     console.log(`The passwords are the same.`)
   else
       console.log(`The passwords are not the same.`)
+    
