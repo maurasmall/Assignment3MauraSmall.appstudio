@@ -6,6 +6,7 @@ while (doContinue) {
     cities.push(cityName)
     doContinue = confirm(`Do you want to add another city? OK for Yes or Cancel for No`)
   }
+while (doContinue  = 
 console.log(`${cities}`)
 
 
