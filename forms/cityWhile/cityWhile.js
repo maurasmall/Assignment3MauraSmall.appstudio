@@ -1,12 +1,19 @@
+
 let cityName = ""
-let cities = [""]
+let cities = []
+i=0
 let doContinue = confirm(`Do you want to add another city? OK for Yes or Cancel for No`)
 while (doContinue) {
     cityName = prompt("Enter new city name:")
     cities.push(cityName)
-    doContinue = confirm(`Do you want to add another city? OK for Yes or Cancel for No`)
+    doContinue = confirm("Do you want to add another city? OK for Yes or Cancel for No")
   }
-console.log(`${cities}`)
+
+while ( i < cities.length) {
+  cities[i] = cities[i].toLowerCase()
+    console.log(`${cities[i]}`)
+    i++
+    }
 
 
 
